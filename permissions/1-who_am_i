@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $SU_USER
+whoami 
