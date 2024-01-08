@@ -1,2 +1,2 @@
 #!/bin/bash
-su chmod a=rwx hello
+su chmod a=x hello
