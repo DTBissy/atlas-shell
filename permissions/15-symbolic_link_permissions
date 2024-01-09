@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod  permissions
+chown -R vincent:staff _hello 
