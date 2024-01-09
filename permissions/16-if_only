@@ -1,5 +1,2 @@
 #!/bin/bash
-if [ "chown gulliame hello" ]
-then "chown vincent hello" 
-fi
-
+chown --from=guillaume vincent hello
