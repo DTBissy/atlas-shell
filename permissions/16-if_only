@@ -1,5 +1,5 @@
 #!/bin/bash
 if [ "chown gulliame hello" ]
-then chown vincent hello 
+then "chown vincent hello" 
 fi
 
