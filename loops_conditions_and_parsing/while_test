@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This is a test file to practice while
+
+count=0 
+while [[ $count -lt 9 ]];
+do
+if [[ $count -eq 3 ]]; then
+echo "KILL ME"
+fi 
+echo "HACK ME" 
+(( count++))
+done
