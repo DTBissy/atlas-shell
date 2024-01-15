@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 # 
-i=0 
-while [[ $i -lt 10 ]]; do
-	((i++))
-if [[ "$i" == '9' ]]; then
+count=0 
+while [[ $count -lt 10 ]]; do	
+if [[ $count -eq 9 ]]; then
 echo "Hi"
 fi
 echo "Best School"
-(( i++ ))
+(( count++ ))
 done
