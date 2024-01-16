@@ -7,7 +7,7 @@
 
 while IFS=: read -r | cut -d: -f1,3,6 /etc/passwd; 
 do
-echo "Username: $username $PATH"
-echo "User ID: $user_id $PATH"
-echo "Home Directory: $home_directory $PATH" 
+echo "Username: $PATH"
+echo "User ID: $PATH"
+echo "Home Directory: $PATH" 
 done
