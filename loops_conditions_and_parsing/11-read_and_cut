@@ -7,7 +7,7 @@
 file=/etc/passwd
 while IFS=: read -r username _ uid _ home _; 
 do
-echo "Username: $username"
-echo "User ID: $userid"
-echo "Home Directory: $home"
+echo "Username: $username; $PATH"
+echo "User ID: $userid; $PATH"
+echo "Home Directory: $home; $PATH"
 done < /etc/passwd 
