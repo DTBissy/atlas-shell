@@ -10,4 +10,5 @@ do
 echo "Username: $username; $PATH"
 echo "User ID: $userid; $PATH"
 echo "Home Directory: $home; $PATH"
-done < /etc/passwd 
+break 
+done
