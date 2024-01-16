@@ -5,4 +5,4 @@
 # Displays Home directory path for the user
 
 line=/etc/passwd
-while read -r line; do echo "$line" | cut -d: -f1,3,6; done  
+while read -r line; do echo "$line" | cut -d: -f1,3,6; done < /etc/passwd 
