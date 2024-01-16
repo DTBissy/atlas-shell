@@ -4,8 +4,8 @@
 # Displays user id 
 # Displays Home directory path for the user
 
-cut -d: -fi,3,6 /etc/passwd |
-while IFS=: read -r username _ uid _ home _; 
+
+while IFS=: read -r | cut -d: -f1,3,6 /etc/passwd; 
 do
 echo "Username: $username; $PATH"
 echo "User ID: $userid; $PATH"
